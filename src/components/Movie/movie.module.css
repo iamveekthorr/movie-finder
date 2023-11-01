@@ -1,0 +1,51 @@
+.movie_container {
+  display: flex;
+  gap: 2rem;
+}
+
+.movie_title_heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.movie_summary {
+  color: inherit;
+  font-size: 1.2rem;
+  max-width: 34rem;
+}
+
+.movie_visit_site_btn {
+  padding: 1rem 4rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  background-color: #7b61ff;
+}
+
+.movie_banner_container {
+  height: 29.5rem;
+  width: 22rem;
+  overflow: hidden;
+}
+
+.movie_banner_container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.movie_genre {
+  background-color: hsla(250, 100%, 69%, 0.12);
+  padding: 3px 10px;
+}
+
+@media only screen and (max-width: 320px) and (max-width: 1200px) {
+  .movie_container {
+    flex-wrap: wrap;
+  }
+
+  .movie_banner_container {
+    width: 100%;
+    height: 35rem;
+  }
+}
