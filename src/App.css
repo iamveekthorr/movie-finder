@@ -74,8 +74,8 @@ input:focus {
   font-size: 1.4rem;
 }
 
-@media only screen and (max-width: 320px) and (max-width: 1200px) {
+@media only screen and (max-width: 320px) {
   .app_input {
-    min-width: 100vw;
+    min-width: 100%;
   }
 }
