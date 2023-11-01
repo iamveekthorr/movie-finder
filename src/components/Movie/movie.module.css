@@ -39,7 +39,7 @@
   padding: 3px 10px;
 }
 
-@media only screen and (max-width: 320px) and (max-width: 1200px) {
+@media only screen and (min-width: 320px) {
   .movie_container {
     flex-wrap: wrap;
   }
