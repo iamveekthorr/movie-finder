@@ -46,6 +46,7 @@ input {
 
 input:focus {
   outline: none;
+  font-size: 1.6rem;
 }
 
 .app_input:focus-within {
